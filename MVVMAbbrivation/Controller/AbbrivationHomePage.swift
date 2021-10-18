@@ -2,7 +2,7 @@
 //  AbbrivationHomePage.swift
 //  AppleLogin
 //
-//  Created by Codigo Technologies on 15/10/21.
+//  
 //
 
 import UIKit
