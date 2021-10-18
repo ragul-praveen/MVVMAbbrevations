@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "cd9e720517200ea92c866a80f6f1c8cd"
+build_time: [1634537848, 40004000]
+inputs:
+  "/Users/srikanthvemana/Desktop/MVVMAbbrivation/MVVMAbbrivation/AbbrivationHomeModal.swift": [1634281013, 177225889]
+  "/Users/srikanthvemana/Desktop/MVVMAbbrivation/MVVMAbbrivation/View/AbbrivationHomeViewModal.swift": [1634287945, 771051205]
+  "/Users/srikanthvemana/Desktop/MVVMAbbrivation/MVVMAbbrivation/Controller/AbbrivationHomePage.swift": [1634281028, 394001972]
+  "/Users/srikanthvemana/Desktop/MVVMAbbrivation/MVVMAbbrivation/AppDelegate.swift": [1634282506, 761521738]
+  "/Users/srikanthvemana/Desktop/MVVMAbbrivation/MVVMAbbrivation/SceneDelegate.swift": [1634281692, 916408961]

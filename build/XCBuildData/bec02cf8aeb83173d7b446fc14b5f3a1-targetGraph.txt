@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+MVVMAbbrivation in MVVMAbbrivation
+MVVMAbbrivationTests in MVVMAbbrivation, depends on:
+MVVMAbbrivation in MVVMAbbrivation (explicit)
+MVVMAbbrivationUITests in MVVMAbbrivation, depends on:
+MVVMAbbrivation in MVVMAbbrivation (explicit)

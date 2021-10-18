@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Abbrivation Home Page-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AbbrivationHomePage" customModule="MVVMAbbrivation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bON-us-G8H">
+                                <rect key="frame" x="18" y="130" width="378" height="49"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="1Yg-1X-OBF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5aa-Na-qRm">
+                                <rect key="frame" x="0.0" y="211" width="414" height="526"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bON-us-G8H" secondAttribute="trailing" constant="18" id="25Q-82-S2W"/>
+                            <constraint firstItem="5aa-Na-qRm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QB1-GQ-m2r"/>
+                            <constraint firstItem="5aa-Na-qRm" firstAttribute="top" secondItem="bON-us-G8H" secondAttribute="bottom" constant="32" id="TwB-Rq-f7h"/>
+                            <constraint firstItem="5aa-Na-qRm" firstAttribute="centerX" secondItem="bON-us-G8H" secondAttribute="centerX" id="fil-HX-dIy"/>
+                            <constraint firstItem="bON-us-G8H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="i2L-np-cE7"/>
+                            <constraint firstItem="bON-us-G8H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="st5-2Z-iSJ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5aa-Na-qRm" secondAttribute="bottom" constant="-1" id="wII-Cd-HpU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="abbrivationListsTableView" destination="5aa-Na-qRm" id="Eib-7K-Sx3"/>
+                        <outlet property="abbrivationTextFields" destination="bON-us-G8H" id="YFQ-3R-RnX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75.815217391304358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
